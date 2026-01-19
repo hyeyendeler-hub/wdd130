@@ -21,14 +21,14 @@ header {
 nav {
   background-color: #1e3a5f;
   padding: 1rem;
-  display: flex;
+  display: block;
   justify-content: center;
   gap: 2rem;
 }
 
 nav a {
   padding: 0.5rem;
-  display:flex;
+  display: block;
 
   color: #ffffff;
   text-decoration: none;
