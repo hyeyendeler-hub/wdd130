@@ -30,10 +30,14 @@ footer {
 }
 
 /* Heading Styles */
-h1,
-h2 {
+h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
 }
 
 /* Nav, Paragraph, Section, Article Styles */
@@ -49,8 +53,6 @@ article {
 .socialmedia a {
     text-decoration: none;
 }
-
-
 
 /* Hero Image Section */
 .hero {
@@ -78,7 +80,7 @@ article {
     position: absolute;
     top: 100px;
     left: 20px;
-    background-color: rgba(231, 222, 208, 0.9);
+    background-color: var(--accent2-color);
     padding: 16px;
     border-radius: 8px;
     max-width: 400px;
@@ -86,7 +88,8 @@ article {
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 40%;
+    max-width: 200px;
     margin-left: 10px;
     border: 2px solid var(--primary-color);
     border-radius: 4px;
