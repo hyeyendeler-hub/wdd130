@@ -1,20 +1,31 @@
 /*CSS for Rafting Website*/
 
 :root {
-    --primary-color: #072133;     /* Light blue */
-    --secondary-color: #165f35;   /* Green */
-    --accent1-color: #80190e;     /* Red */
-    --accent2-color: #5e3b04;     /* Orange */
+    --primary-color: #072133;
+    /* Light blue */
+    --secondary-color: #165f35;
+    /* Green */
+    --accent1-color: #80190e;
+    /* Red */
+    --accent2-color: #5e3b04;
+    /* Orange */
     --heading-font: "Poppins", sans-serif;
     --paragraph-font: "Roboto", sans-serif;
-    --headline-color-on-white: #082030;  /* Same as primary-color for consistency */
-    --headline-color-on-color: #ffffff;  /* White text on colored backgrounds */
-    --paragraph-color-on-white: #333333; /* Dark grey for paragraph text on white */
-    --paragraph-color-on-color: #ffffff; /* White text on colored backgrounds */
-    --paragraph-background-color: #072133;  /* Same as primary-color */
+    --headline-color-on-white: #082030;
+    /* Same as primary-color for consistency */
+    --headline-color-on-color: #ffffff;
+    /* White text on colored backgrounds */
+    --paragraph-color-on-white: #333333;
+    /* Dark grey for paragraph text on white */
+    --paragraph-color-on-color: #ffffff;
+    /* White text on colored backgrounds */
+    --paragraph-background-color: #072133;
+    /* Same as primary-color */
     --nav-link-color: #ffffff;
-    --nav-background-color: #072133;  /* Same as primary-color */
-    --nav-hover-link-color: #023e1b;  /* Same as secondary-color */
+    --nav-background-color: #072133;
+    /* Same as primary-color */
+    --nav-hover-link-color: #023e1b;
+    /* Same as secondary-color */
     --nav-hover-background-color: #ffffff;
 }
 
@@ -28,7 +39,12 @@ body {
 }
 
 /* Centering all headings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Poppins', sans-serif;
     margin-bottom: 1rem;
     text-align: center;
@@ -42,7 +58,7 @@ header {
     border-radius: 5px;
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-areas: 
+    grid-template-areas:
         "logo nav";
     align-items: center;
 }
@@ -105,12 +121,11 @@ nav a:hover {
     right: 0;
     color: white;
     font-size: 3rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
 }
-
 
 .hero article {
     position: absolute;
@@ -120,7 +135,7 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.74);
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .hero article img {
@@ -138,10 +153,12 @@ main {
 }
 
 .box {
-    background-color:#5e3b04;   /* Dark background to contrast with white text */
+    background-color: #5e3b04;
+    /* Dark background to contrast with white text */
     padding: 20px;
     border-radius: 8px;
-    color: white;  /* Makes all text white by default */
+    color: white;
+    /* Makes all text white by default */
 }
 
 .box h2 {
@@ -183,7 +200,7 @@ footer {
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    background-color: #072133; 
+    background-color: #072133;
 }
 
 footer .copyright {
@@ -231,6 +248,7 @@ footer .sociallinks {
         margin: 0 auto 1rem;
     }
 }
+
 .history {
     display: flex;
     flex-direction: column;
@@ -253,11 +271,13 @@ footer .sociallinks {
     text-align: left;
 }
 
-.history-content img, .history-content p {
+.history-content img,
+.history-content p {
     width: 30%;
     margin: 0 20px;
     border-radius: 10px;
 }
+
 /* Contact page specific styles */
 
 /* Company Information section */
@@ -342,6 +362,7 @@ textarea {
     border: 1px solid var(--accent1-color);
     border-radius: 5px;
 }
+
 /* Container styling */
 .newsletter-container {
     display: flex;
@@ -381,7 +402,6 @@ textarea {
     outline: 2px solid #2563eb;
     outline-offset: 2px;
 }
-
 
 fieldset {
     border: none;
@@ -437,7 +457,9 @@ footer a:hover {
     .company-info iframe {
         height: 200px;
     }
-}.book {
+}
+
+.book {
     background-color: #072133;
     padding: 3rem 2rem;
     border-radius: 8px;
@@ -455,16 +477,18 @@ footer a:hover {
 }
 
 .book p {
-    color:#ffffff; 
+    color: #ffffff;
     line-height: 1.6;
     font-size: 1.1rem;
     margin: 0;
 }
+
 input[type="checkbox"]#information {
     float: right;
     width: 20px;
     height: 20px;
-    margin: 4px 10px 4px 0; /* Added right margin for spacing from adjacent content */
+    margin: 4px 10px 4px 0;
+    /* Added right margin for spacing from adjacent content */
     cursor: pointer;
     accent-color: #2c3e50;
 }
@@ -472,11 +496,13 @@ input[type="checkbox"]#information {
 /* Add a container */
 .information-container {
     display: flex;
-    justify-content: flex-start; /* Changed to start alignment */
+    justify-content: flex-start;
+    /* Changed to start alignment */
     align-items: center;
     margin: 10px 0;
     clear: both;
 }
+
 /* Base styles and CSS variables */
 :root {
     --primary-color: #072133;
@@ -505,7 +531,12 @@ body {
     background-color: #ffffff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--heading-font);
     margin-bottom: 1rem;
     text-align: center;
@@ -658,7 +689,7 @@ nav a:hover {
 
 /* Testimonial Section */
 .testimonial-carousel {
-    padding: 2rem;    
+    padding: 2rem;
     background-color: var(--paragraph-background-color);
     color: var(--paragraph-color-on-color);
     overflow: hidden;
@@ -754,6 +785,7 @@ footer {
         font-size: 1.5rem;
     }
 }
+
 .subscriber-count {
     text-align: center;
     padding: 20px;
@@ -776,14 +808,15 @@ footer {
     font-size: 1.8rem;
     margin-left: 5px;
 }
+
 .great {
     border-radius: 10px;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:  #333;
-    background-image: url(../images/hero-image.png);
+    background-color: #333;
+    background-image: url('../images/hero-image.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -810,17 +843,19 @@ footer {
     margin: 10px;
     border-radius: 5px;
     font-size: 40px;
-    background-color: rgba(72, 202, 228, 0.247); /* Darker overlay for readability */
+    background-color: rgba(72, 202, 228, 0.247);
+    /* Darker overlay for readability */
     white-space: nowrap;
 }
 
 .great article,
-.hero1 article{
+.hero1 article {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(72, 202, 228, 0.8); /* Darker overlay for readability */
+    background-color: rgba(72, 202, 228, 0.8);
+    /* Darker overlay for readability */
     padding: 20px;
     max-width: 60%;
     height: 200px;
@@ -834,7 +869,7 @@ footer {
 }
 
 .great article img,
-.great1 article img{
+.great1 article img {
     position: absolute;
     right: 20px;
     top: 50%;
@@ -846,8 +881,8 @@ footer {
     z-index: 1;
 }
 
-.great article p, 
-.hero1 article p{
+.great article p,
+.hero1 article p {
     margin-right: 140px;
     z-index: 0;
 }
@@ -859,103 +894,105 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #90e1ef29;
-    background-image: url(../images/happy-client.png);
+    background-image: url('../images/happy-client.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 150vh;
-    min-height: 40px;
+    min-height: 500px;
     background-attachment: fixed;
 }
+
 .great-content {
     /* Layout and structure */
     padding: 2.5rem;
     margin: 2rem auto;
     max-width: 1200px;
-    max-height:min-content;
+    max-height: min-content;
     position: relative;
-    
+
     /* Background and border */
     background-color: #072133;
     border: 10px solid #165f35;
     border-radius: 12px;
-    
+
     /* Container styling */
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
- }
- 
- .great-content h1 {
-    color:#ddd;
+}
+
+.great-content h1 {
+    color: #ddd;
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
     line-height: 1.2;
     margin-top: -1rem;
     background-color: #000;
- }
- 
- .great-content h2 {
-    color:#FFFFCC;
+}
+
+.great-content h2 {
+    color: #FFFFCC;
     font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 1.5rem;
     margin-top: 2rem;
     line-height: 1.3;
- }
- 
- .great-content p {
+}
+
+.great-content p {
     color: gold;
     font-size: 1.25rem;
     margin-bottom: 2rem;
     line-height: 1.6;
- }
- 
- .great-content img {
+}
+
+.great-content img {
     float: right;
     margin-left: 2rem;
     margin-bottom: 1rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
- }
- 
- .great-content img:hover {
+}
+
+.great-content img:hover {
     transform: scale(1.05);
- }
- 
- .great-content .button {
+}
+
+.great-content .button {
     /* Button styling */
-    display: inline-block;  
+    display: inline-block;
     padding: 1rem 2rem;
     background-color: #ffffff;
-    color: #0d2850; /* Darker blue text on white button */
+    color: #0d2850;
+    /* Darker blue text on white button */
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1rem;
     border-radius: 6px;
     transition: all 0.3s ease;
-    clear: right; /* Ensures button appears below the floated image */
- }
- 
- .great-content .button:hover {
+    clear: right;
+    /* Ensures button appears below the floated image */
+}
+
+.great-content .button:hover {
     background-color: #f8fafc;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
- }
- 
- /* Focus state for accessibility */
- .great-content .button:focus {
+}
+
+/* Focus state for accessibility */
+.great-content .button:focus {
     outline: 3px solid #ffffff;
     outline-offset: 2px;
- }
- 
- /* Clearfix to handle the float */
- .great-content::after {
+}
+
+/* Clearfix to handle the float */
+.great-content::after {
     content: "";
     display: table;
     clear: both;
- }
+}
 
 main {
     padding: 20px;
@@ -964,6 +1001,7 @@ main {
 section {
     margin-bottom: 40px;
 }
+
 /* Trips Page Specific Styles */
 /* Hero Section Styles */
 .hero4 {
@@ -985,7 +1023,8 @@ section {
     position: relative;
     z-index: 2;
     padding: 2rem;
-    background-color: rgba(7, 33, 51, 0.7); /* Using your primary color with transparency */
+    background-color: rgba(7, 33, 51, 0.7);
+    /* Using your primary color with transparency */
     border-radius: 15px;
     max-width: 800px;
     margin: 0 20px;
@@ -1012,7 +1051,8 @@ section {
 }
 
 .hero4 .button {
-    background-color: #165f35; /* Using your secondary color */
+    background-color: #165f35;
+    /* Using your secondary color */
     color: #ffffff;
     padding: 1rem 2rem;
     border: none;
@@ -1028,7 +1068,8 @@ section {
 }
 
 .hero4 .button:hover {
-    background-color: #1a7641; /* Slightly lighter shade for hover */
+    background-color: #1a7641;
+    /* Slightly lighter shade for hover */
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
@@ -1071,6 +1112,7 @@ section {
         padding: 1.5rem;
     }
 }
+
 .featured-trips {
     padding: 40px 0;
 }
@@ -1139,25 +1181,30 @@ table {
     margin: 0;
 }
 
-th, td {
+th,
+td {
     padding: 15px;
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
 
 th {
-    background-color: #023e8a; /* Kept primary color but ensuring it's the darker shade */
-    color: #ffffff; /* Pure white for maximum contrast */
+    background-color: #023e8a;
+    /* Kept primary color but ensuring it's the darker shade */
+    color: #ffffff;
+    /* Pure white for maximum contrast */
 }
 
 tr:hover {
-    background-color: #1aaf968f; /* Darker hover background for better contrast */
+    background-color: #1aaf968f;
+    /* Darker hover background for better contrast */
 }
 
 .limited,
 .booking-fast,
-.available  {
-    color: #023834; /* Darker red for better contrast */
+.available {
+    color: #023834;
+    /* Darker red for better contrast */
 }
 
 .trip-cta {
