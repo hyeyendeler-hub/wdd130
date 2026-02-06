@@ -200,7 +200,8 @@ footer {
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    background-color: #072133;
+    background-color: #ffffff;
+
 }
 
 footer .copyright {
@@ -911,7 +912,7 @@ footer {
     position: relative;
 
     /* Background and border */
-    background-color: #072133;
+    background-color: rgba(0, 0, 0, 0.5);
     border: 10px solid #165f35;
     border-radius: 12px;
 

@@ -66,33 +66,24 @@
             </div>
         </section>
 
-        <section class="testimonial-carousel">
-            <h2>What Our Adventurers Say</h2>
-            <div class="testimonial-container">
-                <div class="testimonial-slide active">
-                    <img src="images/philli.jpg" alt="User Photo">
-                    <p>"What a rush. 🌊 Our family had a blast paddling through the rapids. Can't
-                        wait for our next adventure! 🛶💦"<br> - nansubuga mercy</p>
-                </div>
-                <div class="testimonial-slide">
-                    <img src="images/rashida.jpg" alt="User Photo">
-                    <p>"Best adventure ever! Absolutely exhilarating. 🤩 The guides were amazing,
-                        and the scenery was breathtaking. A must-do for thrill-seekers 🌲🌞" <br>-
-                        Namatovu Norah</p>
-                </div>
-                <div class="testimonial-slide">
-                    <img src="images/profile.webp" alt="User name">
-                    <p>"Amazing rafting experience. Best day ever. 🎉 We laughed, splashed, and
-                        conquered every wave. Already planning round two 💪💧"<br> - Zanika Precious
-                    </p>
-                </div>
-                <div class="testimonial-slide">
-                    <img src="images/rashidi.webp" alt="User Photo">
-                    <p>"Best adventure ever! Rafting with these pros was a total game-changer 🥳
-                        From start to finish, it was non-stop fun. Highly recommend 🙌"<br> - Pius
-                        Mukisa</p>
-                </div>
-            </div>
+        <div class="testimonial-slide">
+            <img src="images/rashida.jpg" alt="User Photo">
+            <p>"Best adventure ever! Absolutely exhilarating. 🤩 The guides were amazing,
+                and the scenery was breathtaking. A must-do for thrill-seekers 🌲🌞" <br>-
+                Namatovu Norah</p>
+
+            <img src="images/profile.webp" alt="User name">
+            <p>"Amazing rafting experience. Best day ever. 🎉 We laughed, splashed, and
+                conquered every wave. Already planning round two 💪💧"<br> - Zanika Precious
+            </p>
+        </div>
+        <div class="testimonial-slide">
+            <img src="images/rashidi.webp" alt="User Photo">
+            <p>"Best adventure ever! Rafting with these pros was a total game-changer 🥳
+                From start to finish, it was non-stop fun. Highly recommend 🙌"<br> - Pius
+                Mukisa</p>
+        </div>
+        </div>
         </section>
     </main>
 
@@ -109,54 +100,3 @@
     </footer>
 
     <script>
-        // Sticky Navigation
-        let lastScrollTop = 0;
-        const navbar = document.querySelector('header');
-
-        window.addEventListener('scroll', () => {
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-            if (scrollTop > lastScrollTop) {
-                navbar.classList.add('scrolled');
-                navbar.classList.remove('visible');
-            } else {
-                navbar.classList.remove('scrolled');
-                navbar.classList.add('visible');
-            }
-            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
-        });
-
-        // Testimonial Carousel
-        const slides = document.querySelectorAll('.testimonial-slide');
-        let currentSlide = 0;
-
-        function showSlide(index) {
-            slides.forEach(slide => slide.classList.remove('active'));
-            slides[index].classList.add('active');
-        }
-
-        function nextSlide() {
-            currentSlide = (currentSlide + 1) % slides.length;
-            showSlide(currentSlide);
-        }
-
-        setInterval(nextSlide, 4000);
-
-        // Newsletter Form
-        const form = document.getElementById('newsletter-form');
-        const subscriberDisplay = document.getElementById('subscriber-count');
-        let subscriberCount = 120;
-
-        form.addEventListener('submit', (e) => {
-            e.preventDefault();
-            subscriberCount++;
-            subscriberDisplay.textContent = subscriberCount;
-            form.reset();
-        });
-
-        // Initial subscriber count
-        subscriberDisplay.textContent = subscriberCount;
-    </script>
-</body>
-
-</html>
