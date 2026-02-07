@@ -612,7 +612,7 @@ nav a:hover {
     min-height: 440px;
     overflow: hidden;
     text-align: center;
-    background-image: url('images/whiteyellow.jpg');
+    background-image: url('images/white_yellow.jpg');
     background-size: cover;
     background-position: center;
     color: var(--headline-color-on-color);
@@ -1015,7 +1015,6 @@ section {
     position: absolute;
     height: 80vh;
     min-height: 500px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/trips-hero.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
