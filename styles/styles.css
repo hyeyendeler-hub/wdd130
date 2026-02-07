@@ -1,15 +1,31 @@
+:root {
+    --primary-color: steelblue;
+    --border-radius: 10px;
+    --letter-spacing: 2px;
+    --text-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
-    background-color:steelblue;
+    background-color: steelblue;
     padding: 10px;
 }
+
 nav a {
     color: white;
     display: block;
     padding: 20px;
 }
+
 h1 {
     color: black;
 }
+
 h2 {
     color: black
 }
@@ -33,16 +49,19 @@ p {
 main {
     max-width: 840px;
 }
+
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1pt solid rgba(0, 0, 0, 0.2); /* 1 */
+    border: 1pt solid rgba(0, 0, 0, 0.2);
+    /* 1 */
     padding: 1rem;
-    background-color:  rgb(235, 229, 229);
+    background-color: rgb(235, 229, 229);
     color: black;
     text-align: center;
-    
+
 }
+
 aside img {
     width: 200px;
     height: auto;
