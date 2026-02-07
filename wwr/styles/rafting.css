@@ -612,7 +612,7 @@ nav a:hover {
     min-height: 440px;
     overflow: hidden;
     text-align: center;
-    background-image: url('../images/whiteyellow.jpg');
+    background-image: url('images/whiteyellow.jpg');
     background-size: cover;
     background-position: center;
     color: var(--headline-color-on-color);
@@ -823,7 +823,7 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #333;
-    background-image: url('../images/hero-image.png');
+    background-image: url('images/hero-image.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -901,7 +901,7 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #90e1ef29;
-    background-image: url('../images/happy-client.png');
+    background-image: url('images/happy-client.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1015,7 +1015,7 @@ section {
     position: absolute;
     height: 80vh;
     min-height: 500px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/trips-hero.webp');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/trips-hero.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
