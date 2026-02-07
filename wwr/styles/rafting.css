@@ -105,7 +105,7 @@ nav a:hover {
     min-height: 440px;
     overflow: hidden;
     text-align: center;
-    background-image: url('../images/whiteyellow.jpg');
+    background-image: url('images/white_yellow.jpg');
 }
 
 .hero > img {
@@ -210,17 +210,17 @@ footer .copyright {
     color: #ffffff;
 }
 
-footer .sociallinks {
+footer .socialmedia {
     display: flex;
     gap: 10px;
     margin-left: auto;
 }
 
-.sociallinks a {
+.socialmedia a {
     margin: 0 10px;
 }
 
-.sociallinks img {
+.socialmedia img {
     width: 30px;
     height: 30px;
 }
