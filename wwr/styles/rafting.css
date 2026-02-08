@@ -322,7 +322,7 @@ footer .socialmedia {
 }
 
 .employee-profiles p {
-    color: #ffffff;
+    color: #000;
     font-weight: bold;
 }
 
@@ -349,9 +349,10 @@ footer .socialmedia {
 }
 
 .employee-name {
-    color: #242222;
+    color: #0c0f0f5b;
     font-weight: bold;
 }
+
 .information-form {
     padding: 1rem;
     border-radius: 5px;
@@ -1034,7 +1035,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: rgb(19, 18, 18);
     text-align: center;
 }
 
@@ -1239,11 +1240,11 @@ tr:hover {
 }
 
 .cta-content h2 {
-    color: #ffffff;
+    color: #f8f5f5;
     margin-bottom: 20px;
 }
 
 .cta-content p {
     margin-bottom: 30px;
-    color: #ffffff;
+    color: #f3eaea;
 }
