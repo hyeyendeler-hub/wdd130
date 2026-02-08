@@ -348,7 +348,10 @@ footer .socialmedia {
     margin-bottom: 0.5rem;
 }
 
-/* Contact Form section */
+.employee-name {
+    color: #242222;
+    font-weight: bold;
+}
 .information-form {
     padding: 1rem;
     border-radius: 5px;
