@@ -322,7 +322,7 @@ footer .socialmedia {
 }
 
 .employee-profiles p {
-    color: #000;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -353,7 +353,7 @@ footer .socialmedia {
     padding: 1rem;
     border-radius: 5px;
     display: flex;
-    color: black;
+    color: white;
     gap: 2rem;
 }
 
@@ -405,7 +405,7 @@ textarea {
     font-size: 16px;
     line-height: 1.4;
     cursor: pointer;
-    color: #000;
+    color: #ffffff;
     margin-left: 5px;
 }
 
@@ -1054,7 +1054,7 @@ section {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 4px rgba(252, 248, 248, 0.945);
 }
 
 .hero4 p {
@@ -1086,7 +1086,7 @@ section {
     background-color: #1a7641;
     /* Slightly lighter shade for hover */
     transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(248, 243, 243, 0.911);
 }
 
 .hero4 .button:active {
@@ -1143,7 +1143,7 @@ section {
     background: white;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(238, 236, 236, 0.911);
     transition: transform 0.3s ease;
 }
 
