@@ -84,12 +84,6 @@ nav a {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Add hover effect on navigation links */
-nav a:hover {
-    background-color: #ffffff;
-    color: var(--primary-color);
-}
-
 /* Hero section styles */
 .hero {
     position: relative;
@@ -180,10 +174,6 @@ section {
     height: auto;
     border-radius: 8px;
     transition: transform 0.3s ease;
-}
-
-.image-gallery img:hover {
-    transform: scale(1.05);
 }
 
 footer {
@@ -374,12 +364,6 @@ textarea {
     margin-left: 5px;
 }
 
-/* Hover states */
-.newsletter-container input[type="checkbox"]:hover,
-.newsletter-container label:hover {
-    cursor: pointer;
-}
-
 /* Focus state for accessibility */
 .newsletter-container input[type="checkbox"]:focus {
     outline: 2px solid #2563eb;
@@ -408,7 +392,7 @@ textarea {
 
 button[type="submit"] {
     background-color: var(--secondary-color);
-    color: white;
+    color: rgb(255, 253, 253);
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 5px;
@@ -416,19 +400,9 @@ button[type="submit"] {
     font-weight: bold;
 }
 
-button[type="submit"]:hover {
-    background-color: var(--accent1-color);
-}
-
 footer a {
 
     text-decoration: none;
-}
-
-footer a:hover {
-    color: gold;
-    text-decoration: underline;
-
 }
 
 .book {
@@ -500,7 +474,8 @@ body {
     margin: 0;
     padding: 0;
     color: var(--paragraph-color-on-white);
-    background-color: #ffffff;
+    background-color: var(--background-color);
+
 }
 
 h1,
@@ -525,7 +500,7 @@ header {
     grid-template-columns: auto 1fr;
     grid-template-areas: "logo nav";
     align-items: center;
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 1000;
     transition: transform 0.3s ease;
@@ -565,11 +540,6 @@ nav a {
     transition: all 0.3s ease;
 }
 
-nav a:hover {
-    background-color: var(--nav-hover-background-color);
-    color: var(--nav-hover-link-color);
-}
-
 /* Hero Section */
 .hero {
     position: relative;
@@ -607,10 +577,6 @@ nav a:hover {
     transition: background-color 0.3s ease;
 }
 
-.button:hover {
-    background-color: var(--accent1-color);
-}
-
 /* Grid Layout */
 .grid-layout {
     display: grid;
@@ -635,6 +601,13 @@ nav a:hover {
     object-fit: cover;
     border-radius: 5px;
     margin-bottom: 1rem;
+}
+
+.fort {
+    background-image: url('wwr/images/history.jpg');
+    font-size: 2rem;
+    color: #000000;
+
 }
 
 /* Newsletter Section */
@@ -725,11 +698,6 @@ footer {
     transition: color 0.3s ease;
 }
 
-.sociallinks a:hover {
-    color: var(--secondary-color);
-
-}
-
 .subscriber-count {
     text-align: center;
     padding: 20px;
@@ -741,7 +709,7 @@ footer {
 
 .subscriber-count h3 {
     margin: 0;
-    color: #333;
+    color: #f8f2f2;
     font-size: 1.5rem;
     font-weight: 600;
 }
@@ -899,10 +867,6 @@ footer {
     transition: transform 0.3s ease;
 }
 
-.great-content img:hover {
-    transform: scale(1.05);
-}
-
 .great-content .button {
     /* Button styling */
     display: inline-block;
@@ -919,12 +883,6 @@ footer {
     /* Ensures button appears below the floated image */
 }
 
-.great-content .button:hover {
-    background-color: #f8fafc;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
 /* Focus state for accessibility */
 .great-content .button:focus {
     outline: 3px solid #ffffff;
@@ -939,7 +897,7 @@ footer {
 }
 
 main {
-    padding: 20px;
+    padding: 30px;
 }
 
 section {
@@ -970,14 +928,13 @@ section {
     border-radius: 15px;
     max-width: 800px;
     margin: 0 20px;
-    backdrop-filter: blur(5px);
     box-shadow: 0 4px 15px rgba(253, 252, 252, 0.918);
 }
 
 .hero4 h1 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
-    color: #ffffff;
+    color: #0c0c0c;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -987,7 +944,7 @@ section {
 .hero4 p {
     font-size: 1.5rem;
     margin-bottom: 2rem;
-    color: #ffffff;
+    color: #111010;
     font-weight: 300;
     line-height: 1.6;
 }
@@ -1009,13 +966,6 @@ section {
     display: inline-block;
 }
 
-.hero4 .button:hover {
-    background-color: #1a7641;
-    /* Slightly lighter shade for hover */
-    transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(248, 243, 243, 0.911);
-}
-
 .hero4 .button:active {
     transform: translateY(-1px);
 }
@@ -1032,15 +982,11 @@ section {
 }
 
 .trip-card {
-    background: white;
+    background: rgb(253, 247, 247);
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(238, 236, 236, 0.911);
     transition: transform 0.3s ease;
-}
-
-.trip-card:hover {
-    transform: translateY(-10px);
 }
 
 .trip-card img {
@@ -1102,11 +1048,6 @@ th {
     /* Pure white for maximum contrast */
 }
 
-tr:hover {
-    background-color: #1aaf968f;
-    /* Darker hover background for better contrast */
-}
-
 .limited,
 .booking-fast,
 .available {
@@ -1115,7 +1056,7 @@ tr:hover {
 }
 
 .trip-cta {
-    background-color: var(--accent2-color);
+    background-image: url('../images/rafting5.jpg');
     padding: 60px 20px;
     text-align: center;
     margin: 40px 0;
@@ -1135,4 +1076,19 @@ tr:hover {
 .cta-content p {
     margin-bottom: 30px;
     color: #f3eaea;
+}
+
+/* Trips page background */
+body.trips-page {
+    background-image: url('../images/history.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: transparent;
+}
+
+body.trips-page main {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    padding: 2rem;
 }
