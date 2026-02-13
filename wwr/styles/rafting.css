@@ -291,6 +291,22 @@ footer .socialmedia {
     margin-bottom: 1rem;
 }
 
+/* Form white box styling */
+.white-box {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.white-box label {
+    color: var(--headline-color-on-white);
+}
+
+.white-box legend {
+    color: var(--headline-color-on-white);
+}
+
 form {
     display: grid;
     gap: 1rem;
