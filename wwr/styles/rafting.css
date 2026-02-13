@@ -584,7 +584,7 @@ footer .copyright {
     color: var(--paragraph-color-on-color);
 }
 
-footer .sociallinks {
+footer .socialmedia {
     display: flex;
     gap: 10px;
     margin-left: auto;
@@ -594,7 +594,7 @@ footer p {
     color: var(--paragraph-color-on-color);
 }
 
-footer .sociallinks a {
+footer .socialmedia a {
     color: var(--paragraph-color-on-color);
     font-size: 1.5rem;
     transition: color 0.3s ease;
