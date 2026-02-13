@@ -1,12 +1,5 @@
 /*CSS for Rafting Website*/
 
-/* Universal Selector Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* Base styles and CSS variables */
 :root {
     --primary-color: #072133;
@@ -44,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--heading-font);
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 1rem;
     text-align: center;
 }
@@ -53,7 +46,7 @@ h6 {
 header {
     background-color: var(--primary-color);
     padding: 1rem;
-    border: 2px solid var(--accent2-color);
+    border: 2px solid #ccc;
     border-radius: 5px;
     display: grid;
     grid-template-columns: auto 1fr;
@@ -75,7 +68,7 @@ header.visible {
 /* Style for the logo inside the header */
 header img {
     grid-area: logo;
-    border: 1px solid var(--headline-color-on-color);
+    border: 1px solid #ffffff;
     padding: 5px;
     border-radius: 5px;
     max-width: 100px;
@@ -94,17 +87,11 @@ nav {
 nav a {
     margin: 0 10px;
     padding: 5px 10px;
-    border: 1px solid var(--headline-color-on-color);
+    border: 1px solid #ffffff;
     border-radius: 5px;
     text-decoration: none;
-    color: var(--nav-link-color);
-    background-color: var(--nav-background-color);
+    color: #ffffff;
     transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
 }
 
 /* Hero section styles */
@@ -183,21 +170,21 @@ section {
 
 footer {
     margin-top: 20px;
-    border-top: 1px solid var(--accent2-color);
+    border-top: 1px solid steelblue;
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    background-color: var(--primary-color);
+    background-color: #ffffff;
 }
 
 footer .copyright {
     flex-grow: 1;
     text-align: center;
-    color: var(--paragraph-color-on-color);
+    color: #ffffff;
 }
 
 footer p {
-    color: var(--paragraph-color-on-color);
+    color: #ffffff;
 }
 
 footer .socialmedia {
@@ -249,7 +236,7 @@ footer .socialmedia {
 }
 
 .employee-profiles p {
-    color: var(--paragraph-color-on-white);
+    color: #000;
     font-weight: bold;
 }
 
@@ -283,7 +270,7 @@ footer .socialmedia {
 .information-form {
     padding: 1rem;
     border-radius: 5px;
-    color: var(--paragraph-color-on-color);
+    color: white;
     gap: 2rem;
 }
 
@@ -298,7 +285,6 @@ form {
 
 label {
     font-weight: bold;
-    color: var(--paragraph-color-on-white);
 }
 
 input[type="text"],
@@ -332,7 +318,7 @@ textarea {
 
 button[type="submit"] {
     background-color: var(--secondary-color);
-    color: var(--paragraph-color-on-color);
+    color: white;
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 5px;
@@ -396,7 +382,7 @@ footer a {
     max-height: min-content;
     position: relative;
     background-color: rgba(0, 0, 0, 0.5);
-    border: 10px solid var(--secondary-color);
+    border: 10px solid #165f35;
     border-radius: 12px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -438,7 +424,7 @@ footer a {
 }
 
 .great-content .button:focus {
-    outline: 3px solid var(--headline-color-on-color);
+    outline: 3px solid #ffffff;
     outline-offset: 2px;
 }
 
@@ -491,7 +477,7 @@ footer a {
 }
 
 .testimonial-carousel h2 {
-    color: var(--paragraph-color-on-color);
+    color: white;
 }
 
 .testimonial-container {
@@ -524,7 +510,7 @@ footer a {
 /* Footer styles */
 footer {
     margin-top: 20px;
-    border-top: 1px solid var(--accent2-color);
+    border-top: 1px solid var(--secondary-color);
     display: flex;
     align-items: center;
     padding: 10px 20px;
@@ -534,7 +520,7 @@ footer {
 footer .copyright {
     flex-grow: 1;
     text-align: center;
-    color: var(--paragraph-color-on-color);
+    color: var(--headline-color-on-color);
 }
 
 footer .sociallinks {
@@ -544,11 +530,11 @@ footer .sociallinks {
 }
 
 footer p {
-    color: var(--paragraph-color-on-color);
+    color: #ffffff;
 }
 
 footer .sociallinks a {
-    color: var(--paragraph-color-on-color);
+    color: var(--headline-color-on-color);
     font-size: 1.5rem;
     transition: color 0.3s ease;
 }
@@ -561,7 +547,7 @@ footer .sociallinks a {
     background-repeat: no-repeat;
     padding: 4rem 2rem;
     text-align: center;
-    color: var(--paragraph-color-on-white);
+    color: #000000;
     font-size: 2rem;
 }
 
@@ -577,20 +563,20 @@ footer .sociallinks a {
 }
 
 .hero-content h1 {
-    color: var(--paragraph-color-on-color);
+    color: #ffffff;
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero-content p {
-    color: var(--paragraph-color-on-color);
+    color: #ffffff;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
 .hero-content .button {
-    background-color: var(--secondary-color);
-    color: var(--paragraph-color-on-color);
+    background-color: #165f35;
+    color: #ffffff;
     padding: 1rem 2rem;
     border: none;
     border-radius: 50px;
@@ -624,7 +610,7 @@ footer .sociallinks a {
 }
 
 .trip-card {
-    background: var(--background-color);
+    background: #ffffff;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -651,7 +637,7 @@ footer .sociallinks a {
 }
 
 .difficulty {
-    color: var(--paragraph-color-on-white);
+    color: #232324;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -664,7 +650,7 @@ footer .sociallinks a {
 
 .trip-details li {
     margin: 8px 0;
-    color: var(--paragraph-color-on-white);
+    color: #444;
 }
 
 .trip-content .button {
@@ -704,8 +690,8 @@ td {
 }
 
 th {
-    background-color: var(--secondary-color);
-    color: var(--paragraph-color-on-color);
+    background-color: #023e8a;
+    color: #ffffff;
 }
 
 .limited,
@@ -735,18 +721,18 @@ th {
 }
 
 .cta-content h2 {
-    color: var(--paragraph-color-on-color);
+    color: #f8f5f5;
     margin-bottom: 20px;
 }
 
 .cta-content p {
     margin-bottom: 30px;
-    color: var(--paragraph-color-on-color);
+    color: #f3eaea;
 }
 
 .cta-content .button {
-    background-color: var(--secondary-color);
-    color: var(--paragraph-color-on-color);
+    background-color: #165f35;
+    color: #ffffff;
     padding: 1rem 2rem;
     border: none;
     border-radius: 50px;
@@ -796,7 +782,7 @@ body.trips-page main {
     font-size: 16px;
     line-height: 1.4;
     cursor: pointer;
-    color: var(--paragraph-color-on-color);
+    color: #ffffff;
     margin-left: 5px;
 }
 
