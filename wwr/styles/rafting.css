@@ -167,6 +167,37 @@ section {
     margin-bottom: 2rem;
 }
 
+/* History section styles */
+.history-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.history-top-right {
+    flex: 1;
+    text-align: right;
+    order: 3;
+}
+
+.history-center {
+    flex: 0 0 auto;
+    order: 2;
+}
+
+.history-center img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.history-bottom-left {
+    flex: 1;
+    text-align: left;
+    order: 1;
+}
+
 /* Image gallery styles */
 .image-gallery {
     display: grid;
