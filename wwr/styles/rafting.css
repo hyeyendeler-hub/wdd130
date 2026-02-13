@@ -200,13 +200,13 @@ footer p {
     color: var(--paragraph-color-on-color);
 }
 
-footer .socialmedia {
+footer .social-links {
     display: flex;
     gap: 10px;
     margin-left: auto;
 }
 
-.socialmedia a {
+.social-links a {
     margin: 0 10px;
 }
 
@@ -214,7 +214,7 @@ footer .socialmedia {
     color: white;
 }
 
-.socialmedia img {
+.social-links img {
     width: 30px;
     height: 30px;
 }
